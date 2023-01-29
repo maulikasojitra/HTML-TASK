@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title> selectors </title>
+        <style>
+            p1{
+                text-align: center;
+                font-size: 40px;
+                color:blue;
+            }
+
+            p{
+                text-align: center;
+                font-size: 50px;
+                color:darkred;
+            }
+
+            #A1{
+                text-align: center;
+                font-size: 50px;
+                color:crimson;
+            }
+            .A2{
+                text-align: center;
+                font-size: 30px;
+                color: blueviolet;
+            }
+            .A3{
+                text-align: center;
+                font-size: 45px;
+                color:indianred;
+            }
+            *{
+                text-align: center;
+                font-size: 50px;
+                color:midnightblue;
+            }
+            h3,h4,p{
+                text-align: center;
+                font-size: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <p1> this is a element selector</p1>
+        <p2> !hello </p2>
+        <h3> world </h3>
+        <p id="A1">this is a id selector </p>
+        <h1> "hello"</h1>
+        <h3> life </h3>
+        <p class="A2"> this is a class </p>
+        <p class="A3"> hello </p>
+        <h2> self </h2>
+        <h1> this is a header </h1>
+        <p id="this is a universal selector"></p>
+        <p>"!hello"</p>
+        <h3> this is a selector</h3>
+        <h4>this is a heading </h4>
+        <p> this is a paragraph</p>
+    </body>
+</html>
